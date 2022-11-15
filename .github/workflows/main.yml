@@ -6,6 +6,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      image: nikolaik/python-nodejs:python3.7-nodejs14
     steps:
     - uses: actions/checkout@v1
     - name: Configure AWS Credentials
