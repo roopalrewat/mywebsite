@@ -13,8 +13,8 @@ jobs:
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: "AKIA5CA4YRK6Q3TGLJH4"
-        aws-secret-access-key: "RtnD5ShCC1pi3nGPxfevz4wyXjYwXtowHaJ0aD2L"
+        aws-access-key-id: ""
+        aws-secret-access-key: ""
         aws-region: us-east-1 # Use your bucket region here
         
     # Here you could add some building steps if you were dealing with some angular/react/Vue...
